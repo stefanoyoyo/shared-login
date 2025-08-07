@@ -8,7 +8,7 @@
           type="text"
           id="username"
           name="username"
-          [(ngModel)]="username"
+          [(ngModel)]="user.username"
           placeholder="Inserisci il nome utente"
           required
         />
@@ -19,7 +19,7 @@
           [type]="showPassword ? 'text' : 'password'"
           id="password"
           name="password"
-          [(ngModel)]="password"
+          [(ngModel)]="user.password"
           placeholder="Inserisci la password"
           required
           style="padding-right: 2.5rem"

@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { Router } from '@angular/router';
+import { User } from '../../shared/models/user.model';
 
 @Component({
   selector: 'app-login',
@@ -11,8 +12,11 @@ import { Router } from '@angular/router';
   styleUrls: ['./login.component.scss'],
 })
 export class LoginComponent {
-  username = '';
-  password = '';
+  user: User = {
+    username: '',
+    email: '',
+    password: ''
+  }
   error = '';
   showPassword = false;
 
@@ -23,7 +27,7 @@ export class LoginComponent {
   }
 
   onSubmit() {
-    if (!this.username || !this.password) {
+    if (!this.user.username || !this.user.password) {
       this.error = 'Inserisci nome utente e password.';
       return;
     }

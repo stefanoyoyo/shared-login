@@ -5,9 +5,9 @@ import { FormsModule } from '@angular/forms';
 @Component({
   selector: 'app-register',
   standalone: true,
-    imports: [CommonModule, FormsModule],
+  imports: [CommonModule, FormsModule],
   templateUrl: './register.component.html',
-  styleUrl: './register.component.scss'
+  styleUrl: './register.component.scss',
 })
 export class RegisterComponent {
   showPassword = false;
@@ -22,8 +22,9 @@ export class RegisterComponent {
     } catch (error) {
       console.error('Errore durante la registrazione:', error);
       // Gestisci l'errore di registrazione
-      alert('Si è verificato un errore durante la registrazione. Riprova più tardi.');
+      alert(
+        'Si è verificato un errore durante la registrazione. Riprova più tardi.'
+      );
     }
   }
-
 }
