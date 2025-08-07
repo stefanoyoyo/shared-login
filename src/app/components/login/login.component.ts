@@ -8,7 +8,7 @@ import { Router } from '@angular/router';
   standalone: true,
   imports: [CommonModule, FormsModule],
   templateUrl: './login.component.html',
-  styleUrls: ['./login.component.scss']
+  styleUrls: ['./login.component.scss'],
 })
 export class LoginComponent {
   username = '';
@@ -30,6 +30,9 @@ export class LoginComponent {
     this.error = '';
     // La logica di navigazione sarà gestita dal componente principale
     this.router.navigate(['/products']);
+  }
 
+  forgotPassword() {
+    this.router.navigate(['/forgot']);
   }
 }
