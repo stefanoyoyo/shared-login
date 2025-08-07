@@ -15,6 +15,11 @@ export class AppComponent {
   username = '';
   password = '';
   error = '';
+  showPassword = false;
+
+  togglePasswordVisibility() {
+    this.showPassword = !this.showPassword;
+  }
 
   onSubmit() {
     if (!this.username || !this.password) {
