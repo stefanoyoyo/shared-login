@@ -1,8 +1,8 @@
 <div class="products-container">
   <h2 class="products-title">Prodotti disponibili</h2>
   <div class="products-grid">
-    <mat-card *ngFor="let product of products" class="product-card">
-      <img mat-card-image [src]="product.link" [alt]="product.name" />
+    <mat-card *ngFor="let product of products" class="product-card" (click)="openProductLink(product.link)">
+      <img mat-card-image [src]="product.image" [alt]="product.name" />
       <mat-card-content>
         <h3>{{ product.name }}</h3>
         <p>{{ product.description }}</p>

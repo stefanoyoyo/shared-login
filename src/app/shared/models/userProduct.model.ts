@@ -6,5 +6,5 @@ export class UserProduct {
     /**Descrizione del prodotto */    
     description: string = '';
     /**Link all'immagine del prodotto (opzionale) */
-    imageLink?: string;
+    image?: string;
 }
