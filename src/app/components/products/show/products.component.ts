@@ -23,43 +23,43 @@ export class ProductsComponent {
     },
     {
       image: 'https://cdn.pixabay.com/photo/2022/07/05/11/06/mountains-7302806__480.jpg',
-      name: 'Prodotto 2',
-      description: 'Descrizione del prodotto 2',
+      name: 'SportTracker',
+      description: 'App per il monitoraggio delle attività sportive e del cibo assunto',
       link: 'https://www.google.com/search?q=montagne+gratis',
-      tags: ['game'],
+      tags: ['app'],
     },
     {
-      image: 'https://tse2.mm.bing.net/th/id/OIP.4nY4Ys05hzDoNVpPJemNHwHaEo?r=0&rs=1&pid=ImgDetMain&o=7&rm=3',
-      name: 'Prodotto 3',
-      description: 'Descrizione del prodotto 3',
+      image: 'https://1drv.ms/i/c/f343ed142930869c/IQQk4sMsuqEDRpmKBU9EOFuVAZVIgM4gw4I8YjgC0A_R7tE',
+      name: 'GameScopa',
+      description: 'Celebre gioco di carte italiano',
       link: 'https://www.google.com/search?q=prodotto+3+gratis',
-      tags: ['app']
+      tags: ['game']
     },
     {
       image: 'https://tse2.mm.bing.net/th/id/OIP.4nY4Ys05hzDoNVpPJemNHwHaEo?r=0&rs=1&pid=ImgDetMain&o=7&rm=3',
-      name: 'Prodotto 4',
-      description: 'Descrizione del prodotto 4',
+      name: 'MomsDay',
+      description: 'App per la celebrazione della giornata della mamma',
       link: 'https://www.google.com/search?q=prodotto+4+gratis',
       tags: ['game']
     },
     {
       image: 'https://tse2.mm.bing.net/th/id/OIP.4nY4Ys05hzDoNVpPJemNHwHaEo?r=0&rs=1&pid=ImgDetMain&o=7&rm=3',
-      name: 'Prodotto 5',
-      description: 'Descrizione del prodotto 5',
+      name: 'WordleClone',
+      description: 'App che simula il gioco Wordle',
       link: 'https://www.google.com/search?q=prodotto+5+gratis',
       tags: ['app']
     },
     {
       image: 'https://tse2.mm.bing.net/th/id/OIP.4nY4Ys05hzDoNVpPJemNHwHaEo?r=0&rs=1&pid=ImgDetMain&o=7&rm=3',
-      name: 'Prodotto 6',
-      description: 'Descrizione del prodotto 6',
+      name: 'LovePurpose',
+      description: 'App per dichiarare il proprio amere ad una ragazza',
       link: 'https://www.google.com/search?q=prodotto+6+gratis',
       tags: ['game']
     },
     {
       image: 'https://tse2.mm.bing.net/th/id/OIP.4nY4Ys05hzDoNVpPJemNHwHaEo?r=0&rs=1&pid=ImgDetMain&o=7&rm=3',
-      name: 'Prodotto 7',
-      description: 'Descrizione del prodotto 7',
+      name: 'WorkTools',
+      description: 'App che propone una serie di tools da usare sul lavoro',
       link: 'https://www.google.com/search?q=prodotto+7+gratis',
       tags: ['app']
     }
