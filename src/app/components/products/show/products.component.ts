@@ -29,14 +29,14 @@ export class ProductsComponent {
       tags: ['app'],
     },
     {
-      image: 'https://1drv.ms/i/c/f343ed142930869c/IQQk4sMsuqEDRpmKBU9EOFuVAZVIgM4gw4I8YjgC0A_R7tE',
+      image: 'https://1drv.ms/i/c/f343ed142930869c/IQTjurlK7ovuRaoUvV_-Z0xkAYbZha4TrbCHFx6zltjD0d8',
       name: 'GameScopa',
       description: 'Celebre gioco di carte italiano',
       link: 'https://www.google.com/search?q=prodotto+3+gratis',
       tags: ['game']
     },
     {
-      image: 'https://tse2.mm.bing.net/th/id/OIP.4nY4Ys05hzDoNVpPJemNHwHaEo?r=0&rs=1&pid=ImgDetMain&o=7&rm=3',
+      image: 'https://1drv.ms/i/c/f343ed142930869c/IQQptkhzQhBjQb9Q2UDvUyW8ARFWdYxZfTGlI3NNyL5djgU',
       name: 'MomsDay',
       description: 'App per la celebrazione della giornata della mamma',
       link: 'https://www.google.com/search?q=prodotto+4+gratis',
