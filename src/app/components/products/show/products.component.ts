@@ -36,28 +36,28 @@ export class ProductsComponent {
       tags: ['game']
     },
     {
-      image: 'https://1drv.ms/i/c/f343ed142930869c/IQQptkhzQhBjQb9Q2UDvUyW8ARFWdYxZfTGlI3NNyL5djgU',
+      image: 'https://1drv.ms/i/c/f343ed142930869c/IQSkyAtp9mrgQY7NhqzPFWQhAdHiaU1GSZU_XS5QwM63VHk',
       name: 'MomsDay',
       description: 'App per la celebrazione della giornata della mamma',
       link: 'https://www.google.com/search?q=prodotto+4+gratis',
       tags: ['game']
     },
     {
-      image: 'https://tse2.mm.bing.net/th/id/OIP.4nY4Ys05hzDoNVpPJemNHwHaEo?r=0&rs=1&pid=ImgDetMain&o=7&rm=3',
+      image: 'https://1drv.ms/i/c/f343ed142930869c/IQS6QCMacAoET7lgaav6UFUhAd7oQ2CE78A5qN0I3-3BN8c',
       name: 'WordleClone',
       description: 'App che simula il gioco Wordle',
       link: 'https://www.google.com/search?q=prodotto+5+gratis',
       tags: ['app']
     },
     {
-      image: 'https://tse2.mm.bing.net/th/id/OIP.4nY4Ys05hzDoNVpPJemNHwHaEo?r=0&rs=1&pid=ImgDetMain&o=7&rm=3',
+      image: 'https://1drv.ms/i/c/f343ed142930869c/IQQptkhzQhBjQb9Q2UDvUyW8ARFWdYxZfTGlI3NNyL5djgU?width=320&height=398',
       name: 'LovePurpose',
       description: 'App per dichiarare il proprio amere ad una ragazza',
       link: 'https://www.google.com/search?q=prodotto+6+gratis',
       tags: ['game']
     },
     {
-      image: 'https://tse2.mm.bing.net/th/id/OIP.4nY4Ys05hzDoNVpPJemNHwHaEo?r=0&rs=1&pid=ImgDetMain&o=7&rm=3',
+      image: 'https://1drv.ms/i/c/f343ed142930869c/IQRsRF0jY2W8QYvl9BOkxeT-AQvhdaQy-pT_PkliSa54mNo',
       name: 'WorkTools',
       description: 'App che propone una serie di tools da usare sul lavoro',
       link: 'https://www.google.com/search?q=prodotto+7+gratis',
